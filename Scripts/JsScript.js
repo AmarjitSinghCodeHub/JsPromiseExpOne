@@ -5,7 +5,7 @@ const CheckPromiseFunction=()=>{
 // it always perform a completion or failure of an async opration
 // There is not pending state i.e. A promise always returns Success or Failure result. i.e. Resolve or Reject result.
 // 
-
+// New comment added.
     const p=new Promise((resolve,reject)=>{
         let x = 4+5;
         if(x== 19)
